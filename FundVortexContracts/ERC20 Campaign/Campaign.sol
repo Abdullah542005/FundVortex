@@ -3,9 +3,9 @@ pragma solidity  0.8.26;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import {PublicTokenSale} from "FundVortex/PublicTokenSale.sol";
-import {WhiteListTokenSale} from "FundVortex/WhiteListTokenSale.sol";
-import {TokenMiscDetails} from "FundVortex/TokenMiscDetails.sol";
+import {PublicTokenSale} from "PublicSale.sol";
+import {WhiteListTokenSale} from "WhiteListSale.sol";
+import {TokenMiscDetails} from "TokenMiscDetails.sol";
 import {SBT} from "FundVortex/SBTs.sol";
 
 contract TokenCampaignCreator is Ownable{
