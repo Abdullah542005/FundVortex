@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity  0.8.26;
 import {SBT} from "FundVortex/SBTs.sol";
-import {PublicMint} from "FundVortex/NFTPublicMint.sol";
+import {PublicMint} from "PublicSale.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "FundVortex/NFTMiscDetails.sol";
+import "MiscDetails.sol";
 contract NFTCampaignCreator is Ownable{
     
     address[] public NFTs;
